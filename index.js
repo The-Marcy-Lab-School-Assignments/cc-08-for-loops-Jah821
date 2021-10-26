@@ -7,7 +7,7 @@ function countToTwenty(){
 
 //2
 function countFromTwenty(){
-  for (let i = 20; i => 1; i--){
+  for (let i = 20; i >= 1; i--){
       console.log(i)
   }
 }
@@ -22,7 +22,7 @@ function countToN(number){
 
 //4
 function countFromN(number){
-  for (let i = number; i => 1; i--){
+  for (let i = number; i >= 1; i--){
       console.log(i)
   }
 }
@@ -34,4 +34,11 @@ function countEveryOdd(number){
   }
 }
 
-countEveryOdd(20)
+//  remainder operator function countEveryOdd(num){
+//    for (let i =1; i <= num; i++){
+  //      if(i % 2 === 1){
+    //        console.log(i)
+//    }
+//}
+
+countEveryOdd(25)
